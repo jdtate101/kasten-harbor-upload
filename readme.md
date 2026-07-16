@@ -4,7 +4,7 @@ Two scripts that pull every container image for a given Kasten K10 version
 from Google's public registry and push them into a private Harbor project,
 for air-gapped / restricted-network K10 installs:
 
-- `kasten-harbor-mirror.sh` — uses **podman**
+- `kasten-harbor-mirror-podman.sh` — uses **podman**
 - `kasten-harbor-mirror-docker.sh` — uses **docker**
 
 Both behave identically. Pick whichever engine is installed on your host.
